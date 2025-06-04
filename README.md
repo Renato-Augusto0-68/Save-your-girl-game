@@ -1,0 +1,1 @@
+This project is a Python game, that uses some mathematical principles such as the Cartesian plane, probability and chaos theory. Still has some problems, and also a elevated level of dificulty. But I like this game a lot. Specially for whom I made it.
