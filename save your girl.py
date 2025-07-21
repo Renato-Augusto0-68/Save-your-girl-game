@@ -9,18 +9,18 @@ k= r.uniform(0, 12) #The random selection of the coodinate X
 p= r.uniform(0, 12) #The random selection of the coodinate Y
 )print("Your girlfriend/boyfriend was kidnapped by an zombie. You have to kill the zombie to save her/him. You only has 3 attempts")
 print("The zombie's position is measured in a cartesian graphic")
-if name != 'BIANCA':
+if name != 'BIANCA': 
  for g in range(1,4):
   x= float(input("x coordinate: ")) #The attempt of hitting the coodinate X
   y= float(input("y coordinate: ")) #The attempt of hitting the coodinate Y
   if((x-k)+(y-p))==0.01: #Limit of the difference between x and k (and respectivly) y and p, with that value gettin' near 0,01
     print(f"Congrats you nailed it, on the {g} attempt. Now she/he is safe. The coordinates were {k}, {p}.")
     break
-  else:
+  else: #In the case where the distance is more or less than 0.01
    t=100*(x/k)
    v=100*(y/p)
    def percentage(t,v):
-    if t>100:
+    if t>100: #Subtracts in the case that the percentage is more than 100, for a more pourposely-intuitive value
      t=t-100
      return t
     if v>100:
