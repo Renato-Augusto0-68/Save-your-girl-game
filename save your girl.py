@@ -1,7 +1,7 @@
 import random as r;
 print("Welcome to : 'Save your girl'.")
 print("coded by Rutheford")
-import random as r
+import random as r #the random library used for the basic operation of the system
 name=str(input("Write your name: ")).upper()
 print(f"Hello {name}, Welcome to : 'Save your love'.")
 print("Coded by Rutheford")
